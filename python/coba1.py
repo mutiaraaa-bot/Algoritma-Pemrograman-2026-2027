@@ -1,7 +1,6 @@
-#Menginput Ales dan Tinggl Segitigo 
-alas = float(input("Input Alas: "))
-tinggi = float(input("Input Tinggi: "))
+panjang = int(input("Masukkan panjang : "))
+lebar = int(input("Masukkan Lebar: "))
 
-# Hitung luas segitiga
-luas = (alas * tinggi) / 2
-print(f"Luas Segitiga adalah {luas:.2f}")
+Luas = panjang * lebar
+
+print("Luas persegi pnjang =", Luas)
